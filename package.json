@@ -19,6 +19,6 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node keystone.js",
-    "test": "./node_modules/.bin/mocha tests/init.js tests/unit/**/*.js"
+    "test": "./node_modules/.bin/mocha tests/init.js tests/unit/**/*.js --exit"
   }
 }
