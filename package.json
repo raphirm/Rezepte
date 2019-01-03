@@ -7,7 +7,9 @@
     "lodash": "^4.13.1",
     "pug": "2.0.0-beta11",
     "dotenv": "4.0.0",
-    "async": "2.1.4"
+    "async": "2.1.4",
+    "chai": "*",
+    "mocha": "*"
   },
   "devDependencies": {
     "eslint": "3.15.0",
@@ -16,6 +18,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "node keystone.js"
+    "start": "node keystone.js",
+    "test": "./node_modules/.bin/mocha tests/init.js tests/unit/**/*.js"
   }
 }
