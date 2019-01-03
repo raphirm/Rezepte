@@ -4,7 +4,7 @@
  */
 var keystone = require('keystone');
 var chai = require('chai');
-var dbURI = "mongodb://localhost/rezepte" || process.env.MONGO_URI;
+var dbURI = process.env.MONGO_URI;
 // CHANGE THIS AS NEEDED
 
 describe('Posts', function() {

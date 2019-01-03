@@ -1,4 +1,6 @@
 require('dotenv').load();
+require('dotenv').config();
+
 
 var keystone = require('keystone');
 var chai = require('chai');
